@@ -1,0 +1,30 @@
+{
+  "button": [
+    {
+      "type": "click",
+      "name": "海为科技",
+      "key": "haiwell"
+    },
+    {
+      "name": "菜单",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "博客园",
+          "url": "http://www.baidu.com"
+        },
+        {
+          "type": "click",
+          "name": "点赞",
+          "key": "happy"
+        },
+        {
+          "type": "scancode_push",
+          "name": "扫码推事件",
+          "key": "scancode",
+          "sub_button": []
+        }
+      ]
+    }
+  ]
+}

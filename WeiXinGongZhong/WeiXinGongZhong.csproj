@@ -61,6 +61,12 @@
     <Compile Include="FrmBase.Designer.cs">
       <DependentUpon>FrmBase.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCallbackIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCallbackIP.Designer.cs">
+      <DependentUpon>FrmCallbackIP.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCreateMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,32 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaterial.Designer.cs">
+      <DependentUpon>FrmMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMedia.Designer.cs">
+      <DependentUpon>FrmMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTags.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTags.Designer.cs">
+      <DependentUpon>FrmTags.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\Tag.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />
@@ -88,11 +120,29 @@
     <EmbeddedResource Include="FrmBase.resx">
       <DependentUpon>FrmBase.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCallbackIP.resx">
+      <DependentUpon>FrmCallbackIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreateMenu.resx">
+      <DependentUpon>FrmCreateMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaterial.resx">
+      <DependentUpon>FrmMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMedia.resx">
+      <DependentUpon>FrmMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTags.resx">
+      <DependentUpon>FrmTags.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +153,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="menu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

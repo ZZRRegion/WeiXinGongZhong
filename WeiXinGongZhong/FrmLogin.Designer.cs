@@ -79,7 +79,6 @@
             this.txtAppsecret.Name = "txtAppsecret";
             this.txtAppsecret.Size = new System.Drawing.Size(271, 26);
             this.txtAppsecret.TabIndex = 4;
-            this.txtAppsecret.Text = "1bace5d67045669beabfb8e52614b830";
             // 
             // FrmLogin
             // 
